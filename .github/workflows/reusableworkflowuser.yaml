@@ -1,0 +1,16 @@
+name: resuable workflow user
+on:
+ workflow_dispatch:
+jobs:
+ do-it:
+  runs-on: ubuntu-latest
+  steps:
+  - name: code checkout
+    uses: actions/checkout@v3
+  - name: Run oneline script
+    run: echo Hello, world
+ docker-job:
+  uses:  mkshahi/reusableworkflow/.github/workflows/buildAndPublishDockerimage.yml@main
+  
+  
+ 
