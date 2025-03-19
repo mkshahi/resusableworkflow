@@ -10,7 +10,7 @@ jobs:
   - name: Run oneline script
     run: echo Hello, world
  docker-job:
-  uses:  mkshahi/reusableworkflow/.github/workflows/buildAndPublishDockerimage.yml@main
+  uses:  mkshahi/resusableworkflow/.github/workflows/buildAndPublishDockerimage.yml@main
   
   
  
