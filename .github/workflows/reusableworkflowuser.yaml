@@ -15,8 +15,8 @@ jobs:
    image_name: nginx
   secrets:
   
-   username: ${{ secrets.registry_username}}
-   password: ${{ secrets.registry_password}}
+   registry_username: ${{ secrets.registry_username}}
+   registry_password: ${{ secrets.registry_password}}
   
   
  
