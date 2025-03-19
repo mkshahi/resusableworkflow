@@ -11,6 +11,8 @@ jobs:
     run: echo Hello, world
  docker-job:
   uses:  mkshahi/resusableworkflow/.github/workflows/buildAndPublishDockerimage.yml@main
+  with:
+   image_name: nginx
   
   
  
