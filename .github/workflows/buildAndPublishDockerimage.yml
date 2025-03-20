@@ -30,7 +30,7 @@ jobs:
      with:
       push: true
       context: .
-      tag: mkshahi/reusable
+      tags: mkshahi/reusable:latest
       
      
      
