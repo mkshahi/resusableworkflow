@@ -13,6 +13,7 @@ jobs:
   uses:  mkshahi/resusableworkflow/.github/workflows/buildAndPublishDockerimage.yml@main
   with:
    image_name: nginx
+   tag: mkshahi/reusable
   secrets:
   
    registry_username: ${{ secrets.registry_username}}
