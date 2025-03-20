@@ -30,6 +30,7 @@ jobs:
      with:
       push: true
       context: .
+      file: ./Dockerfile 
       tags: mkshahi/reusable:latest
       
      
